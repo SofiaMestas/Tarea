@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vista de Negocio</title>
+  <link rel="stylesheet" href="CEmpresa.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+  <header>
+    <h1>House Lab</h1>
+  </header>
+
+  <main>
+    <!-- Información de la Empresa -->
+    <section id="empresa">
+      <h2>Información de la Empresa</h2>
+      <p><strong>Nombre:</strong> House Lab</p>
+      <p><strong>Descripción:</strong> Negocio especializado en todo para el hogar.</p>
+      <p><strong>Dirección:</strong> Calle Principal #123, Ciudad.</p>
+      <p><strong>Horario:</strong> Lunes a Viernes de 9:00 AM a 6:00 PM</p>
+    </section>
+
+    <!-- Imagen -->
+    <section id="imagen">
+      <h2>Imagen del Negocio</h2>
+      <img src="negocio.jpg" alt="Foto del negocio" width="400">
+    </section>
+
+    <!-- Formulario -->
+    <section id="formulario">
+      <h2>Formulario de Contacto</h2>
+      <form action="/contacto" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Información de Contacto -->
+    <section id="contacto">
+      <h2>Información de Contacto</h2>
+      <p><strong>Teléfono:</strong> 555-123-4567</p>
+      <p><strong>Email:</strong> contacto@trulo.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Trulo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
